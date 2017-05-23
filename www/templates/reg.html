@@ -1,0 +1,35 @@
+<ion-view view-title="注册">
+    <ion-nav-buttons side="right">
+         <button class="button" ng-click="reg1()">
+            登录
+         </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ul class="list card">
+            <li class="item item-input">
+                <span class="input-label " col col-25>用&nbsp;&nbsp;户&nbsp;&nbsp;名：</span>
+                <input type="text" placeholder="请输入用户名" col col-90>
+            </li>
+            <li class="item item-input">
+                <span class="input-label " col col-25>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
+                <input type="password" placeholder="请输入密码" col col-75>
+            </li>
+            <li class="item item-input" style="padding-right:20px">
+                <span class="input-label " col col-25>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</span>
+                <input type="text" placeholder="请输入手机号" col col-70>
+                <button class="button button-small button-balanced">
+           验证码
+        </button>
+            </li>
+            <li class="item item-input">
+                <span class="input-label " col col-25>确认密码：</span>
+                <input type="password" placeholder="请确认密码" col col-75>
+            </li>
+        </ul>
+        <div style="padding:0 10px">
+            <button class="button button-block button-balanced">
+        提交
+      </button>
+        </div>
+    </ion-content>
+</ion-view>
